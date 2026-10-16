@@ -11,11 +11,15 @@
 </p>
 
 <p align="center">
-  <a href="README.md#english">English</a> ·
-  <a href="README.md#russian">Русский</a> ·
-  <strong>한국어</strong> ·
-  <a href="https://www.youtube.com/watch?v=5zvBRTuSM30">Android 연결 시연</a> ·
-  <a href="docs/DONATIONS.md">개발자 후원</a>
+  <a href="README.md#english"><img src="docs/assets/language-en.svg" alt="English" width="136" height="42"></a>
+  &nbsp;
+  <a href="README.md#russian"><img src="docs/assets/language-ru.svg" alt="Русский" width="136" height="42"></a>
+  &nbsp;
+  <a href="#korean"><img src="docs/assets/language-ko.svg" alt="한국어" width="136" height="42"></a>
+  &nbsp;
+  <a href="https://www.youtube.com/watch?v=5zvBRTuSM30"><img src="docs/assets/video.svg" alt="Android 연결 시연" width="224" height="42"></a>
+  &nbsp;
+  <a href="docs/DONATIONS.md"><img src="docs/assets/support.svg" alt="개발자 후원" width="224" height="42"></a>
 </p>
 
 <p align="center">

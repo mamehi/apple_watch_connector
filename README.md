@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="README.ko.md">한국어</a>
+  <a href="README.ko.md"><img src="docs/assets/language-ko.svg" alt="한국어" width="136" height="42"></a>
   &nbsp;
   <a href="#english"><img src="docs/assets/language-en.svg" alt="English" width="136" height="42"></a>
   &nbsp;
