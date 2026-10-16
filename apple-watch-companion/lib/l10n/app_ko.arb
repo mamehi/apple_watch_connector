@@ -1,0 +1,2031 @@
+{
+  "bluetoothAdapter": "Bluetooth 어댑터",
+  "bluetoothController": "Bluetooth 컨트롤러",
+  "refreshBluetoothAdapters": "어댑터 새로 고침",
+  "bluetoothAdaptersLoading": "Bluetooth 어댑터를 찾는 중…",
+  "bluetoothAdaptersEmpty": "Bluetooth 어댑터를 찾을 수 없습니다. 어댑터를 연결하고 목록을 새로 고치세요.",
+  "bluetoothAdapterChoiceHint": "워치에 사용할 어댑터를 선택하세요. 선택한 어댑터는 다음 연결에도 사용됩니다.",
+  "bluetoothAdapterDisconnectHint": "Bluetooth 어댑터를 변경하기 전에 워치 연결을 해제하세요.",
+  "bluetoothAdapterMissing": "저장된 어댑터를 사용할 수 없음",
+  "bluetoothAdapterMissingHint": "저장된 어댑터를 다시 연결하거나 다른 어댑터를 선택하세요. 워치 페어링은 유지됩니다.",
+  "bluetoothAdapterDiscoveryFailed": "Bluetooth 어댑터 정보를 읽을 수 없습니다. BlueZ가 실행 중인지 확인한 뒤 목록을 새로 고치세요.",
+  "bluetoothAdapterSaveFailed": "어댑터 설정을 읽거나 저장할 수 없습니다. 앱 상태 폴더의 접근 권한을 확인한 뒤 어댑터를 다시 선택하세요.",
+  "bluetoothAdapterSaved": "Bluetooth 어댑터를 저장했습니다.",
+  "opticalScanTitle": "Apple Watch 페어링",
+  "opticalPairWithCamera": "카메라로 페어링",
+  "opticalScanHint": "페어링 애니메이션을 프레임 안에 맞추고 스캔을 탭하세요. 코드를 읽는 동안 휴대폰을 움직이지 마세요.",
+  "opticalScan": "스캔",
+  "opticalNoMatch": "페어링 애니메이션을 찾을 수 없습니다. 카메라를 워치에 맞추고 다시 시도하세요.",
+  "opticalRecognizedTitle": "Apple Watch 발견",
+  "opticalRecognizedDetail": "{name}의 페어링 코드를 인식했습니다. 다음으로 Bluetooth 인증을 진행합니다.",
+  "@opticalRecognizedDetail": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "opticalReplaceDetail": "{name}의 코드를 인식했습니다. 워치가 새 페어링을 기다리는 상태여야 합니다. 기존 암호화 페어링은 교체 전에 백업됩니다.",
+  "@opticalReplaceDetail": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "opticalReplacePair": "저장된 페어링 교체",
+  "opticalStartPairing": "워치 페어링",
+  "opticalAnalyzedFrames": "프레임 {count}개 분석됨",
+  "@opticalAnalyzedFrames": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "opticalPairingLab": "광학 페어링 실험실",
+  "opticalCaptureHint": "페어링 애니메이션을 프레임 안에 맞추세요. 짧은 샘플을 촬영해 광학 디코더를 테스트합니다. 인식 기능은 아직 활성화되지 않았습니다. 이 화면을 나가면 샘플이 삭제됩니다.",
+  "opticalCameraError": "카메라 촬영에 실패했습니다. 카메라 권한을 확인하고 다시 시도하세요.",
+  "opticalFrames": "프레임 {count}개 촬영됨",
+  "@opticalFrames": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "opticalCapture": "샘플 촬영",
+  "opticalRetry": "다시 시도",
+  "opticalStopCapture": "촬영 중지",
+  "@@locale": "ko",
+  "backendFeatures": "사용 가능한 기능",
+  "backendFeaturesHint": "이 목록은 현재 연결 백엔드에 구현된 서비스를 나타냅니다. 연결되었다고 해서 모든 watchOS 기능, 기기 또는 펌웨어 버전을 지원하는 것은 아닙니다.",
+  "backendFeaturesUnknown": "연결 서비스에서 지원 기능 정보를 아직 받지 못했습니다.",
+  "featureNotSupported": "아직 지원하지 않음",
+  "phoneFindFeature": "휴대폰 찾기",
+  "ok": "확인",
+  "@ok": {
+    "description": "Dismiss an informational dialog."
+  },
+  "digitalCrownTimeTravel": "DIGITAL CROWN / 시간 이동",
+  "@digitalCrownTimeTravel": {
+    "description": "Caption above the face preview time slider."
+  },
+  "rightWrist": "오른쪽 손목",
+  "@rightWrist": {
+    "description": "Application UI text."
+  },
+  "rotateScreen180": "화면 180° 회전",
+  "@rotateScreen180": {
+    "description": "Application UI text."
+  },
+  "message24Hourtime": "24시간제",
+  "@message24Hourtime": {
+    "description": "Application UI text."
+  },
+  "readyToConnect": "연결 준비됨",
+  "@readyToConnect": {
+    "description": "Application UI text."
+  },
+  "workout": "운동",
+  "@workout": {
+    "description": "Application UI text."
+  },
+  "trackActivityHeartRatePowerZonesAndGpsRoutes": "활동, 심박수, 파워 영역 및 GPS 경로를 추적합니다.",
+  "@trackActivityHeartRatePowerZonesAndGpsRoutes": {
+    "description": "Application UI text."
+  },
+  "activity": "활동",
+  "@activity": {
+    "description": "Application UI text."
+  },
+  "moveExerciseAndStandRings": "움직이기, 운동하기 및 일어서기 링입니다.",
+  "@moveExerciseAndStandRings": {
+    "description": "Application UI text."
+  },
+  "heartRate": "심박수",
+  "@heartRate": {
+    "description": "Application UI text."
+  },
+  "heartRateMeasurementsAndAlerts": "심박수 측정 및 알림입니다.",
+  "@heartRateMeasurementsAndAlerts": {
+    "description": "Application UI text."
+  },
+  "compassWaypoints": "나침반 및 경유지",
+  "@compassWaypoints": {
+    "description": "Application UI text."
+  },
+  "elevationInclineCoordinatesAndBacktrackRoutes": "고도, 경사, 좌표 및 경로 되짚기 경로입니다.",
+  "@elevationInclineCoordinatesAndBacktrackRoutes": {
+    "description": "Application UI text."
+  },
+  "music": "음악",
+  "@music": {
+    "description": "Application UI text."
+  },
+  "streamAudioAndControlPlayback": "오디오를 스트리밍하고 재생을 제어합니다.",
+  "@streamAudioAndControlPlayback": {
+    "description": "Application UI text."
+  },
+  "messages": "메시지",
+  "@messages": {
+    "description": "Application UI text."
+  },
+  "sendAndReceiveMessagesUseDictationAndQuickReplies": "메시지를 주고받고 받아쓰기와 빠른 답장을 사용합니다.",
+  "@sendAndReceiveMessagesUseDictationAndQuickReplies": {
+    "description": "Application UI text."
+  },
+  "phone": "전화",
+  "@phone": {
+    "description": "Application UI text."
+  },
+  "callsOverBluetoothOrCellular": "Bluetooth 또는 셀룰러로 통화합니다.",
+  "@callsOverBluetoothOrCellular": {
+    "description": "Application UI text."
+  },
+  "weather": "날씨",
+  "@weather": {
+    "description": "Application UI text."
+  },
+  "forecastsUvIndexPrecipitationAndWind": "일기 예보, 자외선 지수, 강수량 및 바람 정보입니다.",
+  "@forecastsUvIndexPrecipitationAndWind": {
+    "description": "Application UI text."
+  },
+  "maps": "지도",
+  "@maps": {
+    "description": "Application UI text."
+  },
+  "turnByTurnDirectionsWithHapticFeedback": "햅틱 피드백으로 경로를 단계별로 안내합니다.",
+  "@turnByTurnDirectionsWithHapticFeedback": {
+    "description": "Application UI text."
+  },
+  "noise": "소음",
+  "@noise": {
+    "description": "Application UI text."
+  },
+  "monitorAmbientNoiseLevelsInDecibels": "주변 소음 수준을 데시벨로 측정합니다.",
+  "@monitorAmbientNoiseLevelsInDecibels": {
+    "description": "Application UI text."
+  },
+  "naturalTitanium": "내추럴 티타늄",
+  "@naturalTitanium": {
+    "description": "Application UI text."
+  },
+  "message49Mm": "49 mm",
+  "@message49Mm": {
+    "description": "Application UI text."
+  },
+  "battery": "배터리",
+  "@battery": {
+    "description": "Application UI text."
+  },
+  "message72Bpm": "72 bpm",
+  "@message72Bpm": {
+    "description": "Application UI text."
+  },
+  "message21Sunny": "+21° 맑음",
+  "@message21Sunny": {
+    "description": "Application UI text."
+  },
+  "compass": "나침반",
+  "@compass": {
+    "description": "Application UI text."
+  },
+  "message124Se182M": "124° 남동 • 182 m",
+  "@message124Se182M": {
+    "description": "Application UI text."
+  },
+  "outdoorRun": "실외 달리기",
+  "@outdoorRun": {
+    "description": "Application UI text."
+  },
+  "nowPlaying": "지금 재생 중",
+  "@nowPlaying": {
+    "description": "Application UI text."
+  },
+  "calendar": "캘린더",
+  "@calendar": {
+    "description": "Application UI text."
+  },
+  "meetingAt1930": "19:30 회의",
+  "@meetingAt1930": {
+    "description": "Application UI text."
+  },
+  "custom": "사용자 설정",
+  "@custom": {
+    "description": "Application UI text."
+  },
+  "imported": "가져온 항목",
+  "@imported": {
+    "description": "Application UI text."
+  },
+  "gb": "{value0} GB",
+  "@gb": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "mb": "{value0} MB",
+  "@mb": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "kb": "{value0} KB",
+  "@kb": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "b": "{value0} B",
+  "@b": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "pointTheCameraAtYourAppleWatchScreen": "카메라를 Apple Watch 화면에 맞추세요",
+  "@pointTheCameraAtYourAppleWatchScreen": {
+    "description": "Application UI text."
+  },
+  "enterThe6DigitCodeShownOnYourWatch": "워치에 표시된 6자리 코드를 입력하세요",
+  "@enterThe6DigitCodeShownOnYourWatch": {
+    "description": "Application UI text."
+  },
+  "waitingForBridgeConfirmation": "Bridge 확인 대기 중…",
+  "@waitingForBridgeConfirmation": {
+    "description": "Application UI text."
+  },
+  "setupConfirmedByTheWatch": "워치에서 설정 완료를 확인했습니다",
+  "@setupConfirmedByTheWatch": {
+    "description": "Application UI text."
+  },
+  "setupIsNotConfirmedYetAppleWatchBridgeIs": "설정 완료가 아직 확인되지 않았습니다. Apple Watch Bridge에서 워치를 설정하고 있습니다.",
+  "@setupIsNotConfirmedYetAppleWatchBridgeIs": {
+    "description": "Application UI text."
+  },
+  "noSetupConfirmationFromBridge": "Bridge에서 설정 완료를 확인하지 못했습니다",
+  "@noSetupConfirmationFromBridge": {
+    "description": "Application UI text."
+  },
+  "discover": "둘러보기",
+  "@discover": {
+    "description": "Application UI text."
+  },
+  "newInWatchos11": "WATCH COMPANION",
+  "@newInWatchos11": {
+    "description": "Application UI text."
+  },
+  "appleWatchUltra2OnAndroid": "Apple Watch Companion",
+  "@appleWatchUltra2OnAndroid": {
+    "description": "Application UI text."
+  },
+  "syncNotificationsCallsWorkoutsAndWatchFacesWithYour": "휴대폰이나 데스크톱으로 Apple Watch를 연결하세요. 나의 시계의 사용 가능한 기능에서 연결 백엔드에 구현된 서비스를 확인할 수 있습니다.",
+  "@syncNotificationsCallsWorkoutsAndWatchFacesWithYour": {
+    "description": "Application UI text."
+  },
+  "guidesTips": "사용 설명 및 팁",
+  "@guidesTips": {
+    "description": "Application UI text."
+  },
+  "gesturesControls": "제스처 및 조작",
+  "@gesturesControls": {
+    "description": "Application UI text."
+  },
+  "doubleTapDigitalCrownAndActionButton": "더블 탭, Digital Crown 및 동작 버튼",
+  "@doubleTapDigitalCrownAndActionButton": {
+    "description": "Application UI text."
+  },
+  "healthWorkouts": "건강 및 운동",
+  "@healthWorkouts": {
+    "description": "Application UI text."
+  },
+  "setUpHeartRateZonesGpsRoutesAndActivity": "심박수 영역, GPS 경로 및 활동 링 설정",
+  "@setUpHeartRateZonesGpsRoutesAndActivity": {
+    "description": "Application UI text."
+  },
+  "compassBacktrack": "나침반 및 경로 되짚기",
+  "@compassBacktrack": {
+    "description": "Application UI text."
+  },
+  "navigateWithoutAnInternetConnection": "인터넷 연결 없이 길 찾기",
+  "@navigateWithoutAnInternetConnection": {
+    "description": "Application UI text."
+  },
+  "notificationMirroring": "알림 미러링",
+  "@notificationMirroring": {
+    "description": "Application UI text."
+  },
+  "setUpSmsCallsAndMessagingApps": "SMS, 전화 및 메시지 앱 설정",
+  "@setUpSmsCallsAndMessagingApps": {
+    "description": "Application UI text."
+  },
+  "resources": "참고 자료",
+  "@resources": {
+    "description": "Application UI text."
+  },
+  "appleWatchUserGuide": "Apple Watch 사용 설명서",
+  "@appleWatchUserGuide": {
+    "description": "Application UI text."
+  },
+  "halSupportDiagnostics": "HAL 지원 및 진단",
+  "@halSupportDiagnostics": {
+    "description": "Application UI text."
+  },
+  "appleWatchUltra2Controls": "Apple Watch Ultra 2 조작법",
+  "@appleWatchUltra2Controls": {
+    "description": "Application UI text."
+  },
+  "useDoubleTapTheDigitalCrownAndTheOrange": "더블 탭, Digital Crown 및 오렌지색 동작 버튼을 사용하세요.",
+  "@useDoubleTapTheDigitalCrownAndTheOrange": {
+    "description": "Application UI text."
+  },
+  "essentialGestures": "기본 제스처",
+  "@essentialGestures": {
+    "description": "Application UI text."
+  },
+  "doubleTap": "더블 탭",
+  "@doubleTap": {
+    "description": "Application UI text."
+  },
+  "tapYourIndexFingerAndThumbTogetherTwiceTo": "검지와 엄지를 두 번 맞대어 전화를 받거나 타이머를 중지하거나 스마트 스택을 스크롤할 수 있습니다.",
+  "@tapYourIndexFingerAndThumbTogetherTwiceTo": {
+    "description": "Application UI text."
+  },
+  "turnToScrollThroughListsAndZoomOrPress": "돌려서 목록을 스크롤하거나 확대하고, 눌러서 시계 페이스로 돌아갑니다.",
+  "@turnToScrollThroughListsAndZoomOrPress": {
+    "description": "Application UI text."
+  },
+  "orangeActionButton": "오렌지색 동작 버튼",
+  "@orangeActionButton": {
+    "description": "Application UI text."
+  },
+  "startAWorkoutMarkAWaypointOrHoldTo": "운동을 시작하거나 경유지를 표시하거나 길게 눌러 86 dB 사이렌을 작동할 수 있습니다.",
+  "@startAWorkoutMarkAWaypointOrHoldTo": {
+    "description": "Application UI text."
+  },
+  "waterLock": "수중 잠금",
+  "@waterLock": {
+    "description": "Application UI text."
+  },
+  "preventsAccidentalTouchesInWaterUseTheDigitalCrown": "물속에서 실수로 화면이 터치되는 것을 방지합니다. Digital Crown으로 화면 잠금을 해제하고 물을 배출하세요.",
+  "@preventsAccidentalTouchesInWaterUseTheDigitalCrown": {
+    "description": "Application UI text."
+  },
+  "faceGallery": "페이스 갤러리",
+  "@faceGallery": {
+    "description": "Application UI text."
+  },
+  "save": "저장",
+  "@save": {
+    "description": "Application UI text."
+  },
+  "reset": "재설정",
+  "@reset": {
+    "description": "Application UI text."
+  },
+  "colorPalette": "색상 팔레트",
+  "@colorPalette": {
+    "description": "Application UI text."
+  },
+  "nightMode": "야간 모드",
+  "@nightMode": {
+    "description": "Application UI text."
+  },
+  "bezelStyle": "베젤 스타일",
+  "@bezelStyle": {
+    "description": "Application UI text."
+  },
+  "elevationIncline": "고도 / 경사",
+  "@elevationIncline": {
+    "description": "Application UI text."
+  },
+  "seconds": "초",
+  "@seconds": {
+    "description": "Application UI text."
+  },
+  "noBezel": "베젤 없음",
+  "@noBezel": {
+    "description": "Application UI text."
+  },
+  "complicationsTapToChange": "컴플리케이션 (탭하여 변경)",
+  "@complicationsTapToChange": {
+    "description": "Application UI text."
+  },
+  "saveLayoutOnPhone": "휴대폰에 레이아웃 저장",
+  "@saveLayoutOnPhone": {
+    "description": "Application UI text."
+  },
+  "exportWatchfacePackage": ".watchface 패키지 내보내기",
+  "@exportWatchfacePackage": {
+    "description": "Application UI text."
+  },
+  "chooseAComplicationFor": "{value0}에 사용할 컴플리케이션 선택",
+  "@chooseAComplicationFor": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "취소",
+  "@cancel": {
+    "description": "Application UI text."
+  },
+  "watchfaceGeneratedSuccessfully": ".watchface 파일을 생성했습니다",
+  "@watchfaceGeneratedSuccessfully": {
+    "description": "Application UI text."
+  },
+  "createdAnAppleWatchPackageBytes": "Apple Watch 패키지를 생성했습니다 ({value0}바이트). ",
+  "@createdAnAppleWatchPackageBytes": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "includesFacePlistMetadataPlistAndSlotConfiguration": "Face.plist, metadata.plist 및 슬롯 설정이 포함됩니다.",
+  "@includesFacePlistMetadataPlistAndSlotConfiguration": {
+    "description": "Application UI text."
+  },
+  "topSubdial": "상단 서브 다이얼",
+  "@topSubdial": {
+    "description": "Application UI text."
+  },
+  "topLeft": "왼쪽 상단",
+  "@topLeft": {
+    "description": "Application UI text."
+  },
+  "topRight": "오른쪽 상단",
+  "@topRight": {
+    "description": "Application UI text."
+  },
+  "center": "중앙",
+  "@center": {
+    "description": "Application UI text."
+  },
+  "bottomLeft": "왼쪽 하단",
+  "@bottomLeft": {
+    "description": "Application UI text."
+  },
+  "bottomRight": "오른쪽 하단",
+  "@bottomRight": {
+    "description": "Application UI text."
+  },
+  "bottomSubdial": "하단 서브 다이얼",
+  "@bottomSubdial": {
+    "description": "Application UI text."
+  },
+  "bezel": "베젤",
+  "@bezel": {
+    "description": "Application UI text."
+  },
+  "import": "가져오기",
+  "@import": {
+    "description": "Application UI text."
+  },
+  "onlineGallery": "온라인 갤러리",
+  "@onlineGallery": {
+    "description": "Application UI text."
+  },
+  "downloadedFromTheAppleWatchFaceCatalogServer": "Apple Watch 페이스 카탈로그 서버에서 다운로드했습니다.",
+  "@downloadedFromTheAppleWatchFaceCatalogServer": {
+    "description": "Application UI text."
+  },
+  "importedWayfinder": "가져온 길잡이",
+  "@importedWayfinder": {
+    "description": "Application UI text."
+  },
+  "importAppleWatchFace": "Apple Watch 페이스 가져오기",
+  "@importAppleWatchFace": {
+    "description": "Application UI text."
+  },
+  "loadAWatchfacePackageZipWithFacePlist": ".watchface 패키지 가져오기 (Face.plist가 포함된 ZIP)",
+  "@loadAWatchfacePackageZipWithFacePlist": {
+    "description": "Application UI text."
+  },
+  "watchFaceImported": "시계 페이스를 가져왔습니다!",
+  "@watchFaceImported": {
+    "description": "Application UI text."
+  },
+  "layoutSavedOnYourPhone": "휴대폰에 “{value0}” 레이아웃을 저장했습니다.",
+  "@layoutSavedOnYourPhone": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "importSampleWatchface": "샘플 .watchface 가져오기",
+  "@importSampleWatchface": {
+    "description": "Application UI text."
+  },
+  "myWatch": "나의 시계",
+  "@myWatch": {
+    "description": "Application UI text."
+  },
+  "about": "정보",
+  "@about": {
+    "description": "Application UI text."
+  },
+  "general": "일반",
+  "@general": {
+    "description": "Application UI text."
+  },
+  "name": "이름",
+  "@name": {
+    "description": "Application UI text."
+  },
+  "model": "모델",
+  "@model": {
+    "description": "Application UI text."
+  },
+  "modelNumber": "모델 번호",
+  "@modelNumber": {
+    "description": "Application UI text."
+  },
+  "watchCase": "케이스",
+  "@watchCase": {
+    "description": "Application UI text."
+  },
+  "watchosVersion": "watchOS 버전",
+  "@watchosVersion": {
+    "description": "Application UI text."
+  },
+  "serialNumber": "일련 번호",
+  "@serialNumber": {
+    "description": "Application UI text."
+  },
+  "networkAddresses": "네트워크 주소",
+  "@networkAddresses": {
+    "description": "Application UI text."
+  },
+  "wiFiAddress": "Wi-Fi 주소",
+  "@wiFiAddress": {
+    "description": "Application UI text."
+  },
+  "storage": "저장 공간",
+  "@storage": {
+    "description": "Application UI text."
+  },
+  "available": "사용 가능",
+  "@available": {
+    "description": "Application UI text."
+  },
+  "songs": "노래",
+  "@songs": {
+    "description": "Application UI text."
+  },
+  "photos": "사진",
+  "@photos": {
+    "description": "Application UI text."
+  },
+  "userApps": "사용자 앱",
+  "@userApps": {
+    "description": "Application UI text."
+  },
+  "actionButton": "동작 버튼",
+  "@actionButton": {
+    "description": "Application UI text."
+  },
+  "quickAccessToWorkoutsWaypointsTheStopwatchAndThe": "운동, 경유지, 스톱워치 및 안전 사이렌에 빠르게 접근합니다.",
+  "@quickAccessToWorkoutsWaypointsTheStopwatchAndThe": {
+    "description": "Application UI text."
+  },
+  "action": "동작",
+  "@action": {
+    "description": "Application UI text."
+  },
+  "stopwatch": "스톱워치",
+  "@stopwatch": {
+    "description": "Application UI text."
+  },
+  "compassWaypoint": "나침반 경유지",
+  "@compassWaypoint": {
+    "description": "Application UI text."
+  },
+  "backtrack": "경로 되짚기",
+  "@backtrack": {
+    "description": "Application UI text."
+  },
+  "diveDepth": "다이빙 및 수심",
+  "@diveDepth": {
+    "description": "Application UI text."
+  },
+  "flashlight": "손전등",
+  "@flashlight": {
+    "description": "Application UI text."
+  },
+  "safetySiren": "안전 사이렌",
+  "@safetySiren": {
+    "description": "Application UI text."
+  },
+  "holdTheActionButtonOnAppleWatchUltraTo": "Apple Watch Ultra의 동작 버튼을 길게 누르면 최대 180미터 밖에서도 들리는 86데시벨 경고음이 울립니다.",
+  "@holdTheActionButtonOnAppleWatchUltraTo": {
+    "description": "Application UI text."
+  },
+  "holdForSiren": "길게 눌러 사이렌 실행",
+  "@holdForSiren": {
+    "description": "Application UI text."
+  },
+  "version": "{value0} • 버전 {value1}",
+  "@version": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      },
+      "value1": {
+        "type": "String"
+      }
+    }
+  },
+  "showAppOnAppleWatch": "Apple Watch에서 앱 보기",
+  "@showAppOnAppleWatch": {
+    "description": "Application UI text."
+  },
+  "displayBrightness": "디스플레이 및 밝기",
+  "@displayBrightness": {
+    "description": "Application UI text."
+  },
+  "brightness": "밝기",
+  "@brightness": {
+    "description": "Application UI text."
+  },
+  "textSize": "텍스트 크기",
+  "@textSize": {
+    "description": "Application UI text."
+  },
+  "boldText": "볼드체 텍스트",
+  "@boldText": {
+    "description": "Application UI text."
+  },
+  "keepTheWatchFaceAndAppInformationVisibleWhen": "손목을 내린 상태에서도 시계 페이스와 앱 정보를 표시합니다.",
+  "@keepTheWatchFaceAndAppInformationVisibleWhen": {
+    "description": "Application UI text."
+  },
+  "alwaysOn": "항상 켬",
+  "@alwaysOn": {
+    "description": "Application UI text."
+  },
+  "wristRaise": "손목 올리기",
+  "@wristRaise": {
+    "description": "Application UI text."
+  },
+  "wakeOnWristRaise": "손목을 올려 깨우기",
+  "@wakeOnWristRaise": {
+    "description": "Application UI text."
+  },
+  "wakeDuration": "깨우기 시간",
+  "@wakeDuration": {
+    "description": "Application UI text."
+  },
+  "message70Seconds": "70초",
+  "@message70Seconds": {
+    "description": "Application UI text."
+  },
+  "message15Seconds": "15초",
+  "@message15Seconds": {
+    "description": "Application UI text."
+  },
+  "screenWakeDurationOnTap": "탭했을 때 화면이 켜져 있는 시간",
+  "@screenWakeDurationOnTap": {
+    "description": "Application UI text."
+  },
+  "emergencySos": "긴급 구조 요청",
+  "@emergencySos": {
+    "description": "Application UI text."
+  },
+  "fallDetection": "넘어짐 감지",
+  "@fallDetection": {
+    "description": "Application UI text."
+  },
+  "ifAppleWatchDetectsAHardFallAndYou": "Apple Watch가 심하게 넘어진 것을 감지하고 약 1분 동안 움직임이 없으면 햅틱과 경고음으로 알린 뒤 긴급 서비스에 연락합니다.",
+  "@ifAppleWatchDetectsAHardFallAndYou": {
+    "description": "Application UI text."
+  },
+  "fallDetection2": "넘어짐 감지",
+  "@fallDetection2": {
+    "description": "Application UI text."
+  },
+  "crashDetection": "충돌 감지",
+  "@crashDetection": {
+    "description": "Application UI text."
+  },
+  "afterASevereCarCrashAppleWatchShowsThe": "심각한 자동차 충돌이 발생하면 Apple Watch가 긴급 통화 슬라이더를 표시하고 20초 후 긴급 서비스에 자동으로 전화를 겁니다.",
+  "@afterASevereCarCrashAppleWatchShowsThe": {
+    "description": "Application UI text."
+  },
+  "crashDetection2": "충돌 감지",
+  "@crashDetection2": {
+    "description": "Application UI text."
+  },
+  "medicalInformation": "의료 정보",
+  "@medicalInformation": {
+    "description": "Application UI text."
+  },
+  "setUpMedicalId": "의료 정보 설정",
+  "@setUpMedicalId": {
+    "description": "Application UI text."
+  },
+  "softwareUpdate": "소프트웨어 업데이트",
+  "@softwareUpdate": {
+    "description": "Application UI text."
+  },
+  "orientationTime": "방향 및 시간",
+  "@orientationTime": {
+    "description": "Application UI text."
+  },
+  "leftWrist": "왼쪽 손목",
+  "@leftWrist": {
+    "description": "Application UI text."
+  },
+  "notReceived": "수신되지 않음",
+  "@notReceived": {
+    "description": "Application UI text."
+  },
+  "backgroundAppRefresh": "백그라운드 앱 새로 고침",
+  "@backgroundAppRefresh": {
+    "description": "Application UI text."
+  },
+  "on": "켬",
+  "@on": {
+    "description": "Application UI text."
+  },
+  "off": "끔",
+  "@off": {
+    "description": "Application UI text."
+  },
+  "connectivity": "연결",
+  "@connectivity": {
+    "description": "Application UI text."
+  },
+  "airplaneMode": "에어플레인 모드",
+  "@airplaneMode": {
+    "description": "Application UI text."
+  },
+  "resetUnpair": "재설정 및 페어링 해제",
+  "@resetUnpair": {
+    "description": "Application UI text."
+  },
+  "unpairAppleWatch": "Apple Watch 페어링 해제",
+  "@unpairAppleWatch": {
+    "description": "Application UI text."
+  },
+  "allDataWatchFacesAndSettingsWillBeErased": "기기의 모든 데이터, 시계 페이스 및 설정이 지워집니다.",
+  "@allDataWatchFacesAndSettingsWillBeErased": {
+    "description": "Application UI text."
+  },
+  "unpair": "페어링 해제",
+  "@unpair": {
+    "description": "Application UI text."
+  },
+  "activityHealth": "활동 및 건강",
+  "@activityHealth": {
+    "description": "Application UI text."
+  },
+  "noHealthDataReceivedFromTheWatchYet": "워치에서 받은 건강 데이터가 아직 없습니다.",
+  "@noHealthDataReceivedFromTheWatchYet": {
+    "description": "Application UI text."
+  },
+  "watchMeasurements": "워치 측정값",
+  "@watchMeasurements": {
+    "description": "Application UI text."
+  },
+  "bpm": "bpm",
+  "@bpm": {
+    "description": "Application UI text."
+  },
+  "steps": "걸음 수",
+  "@steps": {
+    "description": "Application UI text."
+  },
+  "km": "{value0} km",
+  "@km": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "move": "움직이기",
+  "@move": {
+    "description": "Application UI text."
+  },
+  "kcal": "{value0} / {value1} kcal",
+  "@kcal": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      },
+      "value1": {
+        "type": "String"
+      }
+    }
+  },
+  "exercise": "운동하기",
+  "@exercise": {
+    "description": "Application UI text."
+  },
+  "min": "{value0} / {value1}분",
+  "@min": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      },
+      "value1": {
+        "type": "String"
+      }
+    }
+  },
+  "stand": "일어서기",
+  "@stand": {
+    "description": "Application UI text."
+  },
+  "hr": "{value0} / {value1}시간",
+  "@hr": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      },
+      "value1": {
+        "type": "String"
+      }
+    }
+  },
+  "activityRings": "활동 링",
+  "@activityRings": {
+    "description": "Application UI text."
+  },
+  "standReminders": "일어서기 알림",
+  "@standReminders": {
+    "description": "Application UI text."
+  },
+  "remindsYouToStandAndMove10MinutesBefore": "매시간이 끝나기 10분 전에 일어나 움직이도록 알려줍니다.",
+  "@remindsYouToStandAndMove10MinutesBefore": {
+    "description": "Application UI text."
+  },
+  "dailyCoaching": "일일 코칭",
+  "@dailyCoaching": {
+    "description": "Application UI text."
+  },
+  "goalCompletions": "목표 달성",
+  "@goalCompletions": {
+    "description": "Application UI text."
+  },
+  "heartBreathing": "심장 및 호흡",
+  "@heartBreathing": {
+    "description": "Application UI text."
+  },
+  "highHeartRateNotifications": "고심박수 알림",
+  "@highHeartRateNotifications": {
+    "description": "Application UI text."
+  },
+  "bpm2": "> {value0} bpm",
+  "@bpm2": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "lowHeartRateNotifications": "저심박수 알림",
+  "@lowHeartRateNotifications": {
+    "description": "Application UI text."
+  },
+  "bpm3": "< {value0} bpm",
+  "@bpm3": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "bloodOxygen": "혈중 산소",
+  "@bloodOxygen": {
+    "description": "Application UI text."
+  },
+  "sleepTracking": "수면 추적",
+  "@sleepTracking": {
+    "description": "Application UI text."
+  },
+  "allWatches": "모든 시계",
+  "@allWatches": {
+    "description": "Application UI text."
+  },
+  "connected": "연결됨",
+  "@connected": {
+    "description": "Application UI text."
+  },
+  "disconnected": "연결 해제됨",
+  "@disconnected": {
+    "description": "Application UI text."
+  },
+  "soundsHaptics": "사운드 및 햅틱",
+  "@soundsHaptics": {
+    "description": "Application UI text."
+  },
+  "notifications": "알림",
+  "@notifications": {
+    "description": "Application UI text."
+  },
+  "passcode": "암호",
+  "@passcode": {
+    "description": "Application UI text."
+  },
+  "installedOnAppleWatch": "APPLE WATCH에 설치됨",
+  "@installedOnAppleWatch": {
+    "description": "Application UI text."
+  },
+  "installed": "설치됨",
+  "@installed": {
+    "description": "Application UI text."
+  },
+  "hidden": "숨겨짐",
+  "@hidden": {
+    "description": "Application UI text."
+  },
+  "manageConnectedWatches": "연결된 시계 관리",
+  "@manageConnectedWatches": {
+    "description": "Application UI text."
+  },
+  "addAppleWatch": "Apple Watch 추가",
+  "@addAppleWatch": {
+    "description": "Application UI text."
+  },
+  "notificationIndicator": "알림 표시",
+  "@notificationIndicator": {
+    "description": "Application UI text."
+  },
+  "showsARedDotAtTheTopOfThe": "읽지 않은 알림이 있으면 시계 페이스 상단에 빨간 점을 표시합니다.",
+  "@showsARedDotAtTheTopOfThe": {
+    "description": "Application UI text."
+  },
+  "notificationPrivacy": "알림 개인 정보 보호",
+  "@notificationPrivacy": {
+    "description": "Application UI text."
+  },
+  "hideNotificationDetailsUntilYouTapTheScreen": "화면을 탭할 때까지 알림 세부 내용을 숨깁니다.",
+  "@hideNotificationDetailsUntilYouTapTheScreen": {
+    "description": "Application UI text."
+  },
+  "notificationSummary": "알림 요약",
+  "@notificationSummary": {
+    "description": "Application UI text."
+  },
+  "mirrorPhoneAlerts": "휴대폰 알림 미러링",
+  "@mirrorPhoneAlerts": {
+    "description": "Application UI text."
+  },
+  "forwardAlertsFromTheseAppsToAppleWatchWith": "이 앱의 알림을 햅틱 피드백과 함께 Apple Watch로 전달합니다.",
+  "@forwardAlertsFromTheseAppsToAppleWatchWith": {
+    "description": "Application UI text."
+  },
+  "messagesSmsRcs": "메시지 (SMS 및 RCS)",
+  "@messagesSmsRcs": {
+    "description": "Application UI text."
+  },
+  "phoneCalls": "전화 및 통화",
+  "@phoneCalls": {
+    "description": "Application UI text."
+  },
+  "mail": "메일",
+  "@mail": {
+    "description": "Application UI text."
+  },
+  "calendarReminders": "캘린더 및 미리 알림",
+  "@calendarReminders": {
+    "description": "Application UI text."
+  },
+  "bankingApps": "은행 앱",
+  "@bankingApps": {
+    "description": "Application UI text."
+  },
+  "bulletinRelayTest": "알림 전달 테스트",
+  "@bulletinRelayTest": {
+    "description": "Application UI text."
+  },
+  "sendATestNotificationToAppleWatchOverThe": "보안 com.apple.private.alloy.bulletindistributor IDS 채널을 통해 Apple Watch에 테스트 알림을 보냅니다.",
+  "@sendATestNotificationToAppleWatchOverThe": {
+    "description": "Application UI text."
+  },
+  "sendTestNotification": "테스트 알림 보내기",
+  "@sendTestNotification": {
+    "description": "Application UI text."
+  },
+  "simulatedTelegramSmsWithTapticFeedback": "Taptic 피드백을 포함한 Telegram / SMS 모의 알림",
+  "@simulatedTelegramSmsWithTapticFeedback": {
+    "description": "Application UI text."
+  },
+  "testMessage": "테스트 메시지",
+  "@testMessage": {
+    "description": "Application UI text."
+  },
+  "androidAppleWatchConnectionIsWorking": "Android ↔ Apple Watch 연결이 작동합니다!",
+  "@androidAppleWatchConnectionIsWorking": {
+    "description": "Application UI text."
+  },
+  "notificationSent": "알림을 보냈습니다",
+  "@notificationSent": {
+    "description": "Application UI text."
+  },
+  "bulletinrequestWasHandedToTheWatchProtocolStack": "BulletinRequest를 워치 프로토콜 스택에 전달했습니다.",
+  "@bulletinrequestWasHandedToTheWatchProtocolStack": {
+    "description": "Application UI text."
+  },
+  "changePasscode": "암호 변경",
+  "@changePasscode": {
+    "description": "Application UI text."
+  },
+  "simplePasscode4Digits": "간단한 암호 (4자리)",
+  "@simplePasscode4Digits": {
+    "description": "Application UI text."
+  },
+  "unlockWithPhone": "휴대폰으로 잠금 해제",
+  "@unlockWithPhone": {
+    "description": "Application UI text."
+  },
+  "unlockingYourPhoneAutomaticallyUnlocksYourTrustedAppleWatch": "휴대폰의 잠금을 해제하면 착용 중인 신뢰하는 Apple Watch도 자동으로 잠금 해제됩니다.",
+  "@unlockingYourPhoneAutomaticallyUnlocksYourTrustedAppleWatch": {
+    "description": "Application UI text."
+  },
+  "wristDetection": "손목 감지",
+  "@wristDetection": {
+    "description": "Application UI text."
+  },
+  "lockAppleWatchWhenYouTakeItOffTo": "Apple Watch를 벗으면 잠가서 데이터와 Apple Pay 카드를 보호합니다.",
+  "@lockAppleWatchWhenYouTakeItOffTo": {
+    "description": "Application UI text."
+  },
+  "wristDetection2": "손목 감지",
+  "@wristDetection2": {
+    "description": "Application UI text."
+  },
+  "dataSecurity": "데이터 보안",
+  "@dataSecurity": {
+    "description": "Application UI text."
+  },
+  "eraseAllAppleWatchDataAfter10FailedPasscode": "암호 입력에 10번 실패하면 Apple Watch의 모든 데이터를 지웁니다.",
+  "@eraseAllAppleWatchDataAfter10FailedPasscode": {
+    "description": "Application UI text."
+  },
+  "eraseData10Attempts": "데이터 지우기 (10번 실패 시)",
+  "@eraseData10Attempts": {
+    "description": "Application UI text."
+  },
+  "automaticUpdates": "자동 업데이트",
+  "@automaticUpdates": {
+    "description": "Application UI text."
+  },
+  "betaUpdates": "베타 업데이트",
+  "@betaUpdates": {
+    "description": "Application UI text."
+  },
+  "checkingForUpdates": "업데이트 확인 중…",
+  "@checkingForUpdates": {
+    "description": "Application UI text."
+  },
+  "yourAppleWatchSoftwareIsUpToDate": "Apple Watch 소프트웨어가 최신 버전입니다.",
+  "@yourAppleWatchSoftwareIsUpToDate": {
+    "description": "Application UI text."
+  },
+  "checkAgain": "다시 확인",
+  "@checkAgain": {
+    "description": "Application UI text."
+  },
+  "alertVolume": "알림 음량",
+  "@alertVolume": {
+    "description": "Application UI text."
+  },
+  "silentMode": "무음 모드",
+  "@silentMode": {
+    "description": "Application UI text."
+  },
+  "hapticFeedback": "햅틱 피드백",
+  "@hapticFeedback": {
+    "description": "Application UI text."
+  },
+  "hapticAlerts": "햅틱 알림",
+  "@hapticAlerts": {
+    "description": "Application UI text."
+  },
+  "defaultHaptic": "기본",
+  "@defaultHaptic": {
+    "description": "Application UI text."
+  },
+  "prominent": "뚜렷하게",
+  "@prominent": {
+    "description": "Application UI text."
+  },
+  "playAnAdditionalHapticBeforeANotification": "알림 전에 햅틱을 한 번 더 재생합니다.",
+  "@playAnAdditionalHapticBeforeANotification": {
+    "description": "Application UI text."
+  },
+  "systemFeedback": "시스템 피드백",
+  "@systemFeedback": {
+    "description": "Application UI text."
+  },
+  "crownHaptics": "크라운 햅틱",
+  "@crownHaptics": {
+    "description": "Application UI text."
+  },
+  "systemHaptics": "시스템 햅틱",
+  "@systemHaptics": {
+    "description": "Application UI text."
+  },
+  "coverToMute": "가려서 소리 끄기",
+  "@coverToMute": {
+    "description": "Application UI text."
+  },
+  "coverTheDisplayWithYourPalmForAtLeast": "손바닥으로 디스플레이를 3초 이상 가리면 수신 전화나 알림의 소리가 꺼집니다.",
+  "@coverTheDisplayWithYourPalmForAtLeast": {
+    "description": "Application UI text."
+  },
+  "watchStorage": "워치 저장 공간",
+  "@watchStorage": {
+    "description": "Application UI text."
+  },
+  "reclaimable": "확보 가능",
+  "@reclaimable": {
+    "description": "Application UI text."
+  },
+  "purgeableData": "정리 가능한 데이터",
+  "@purgeableData": {
+    "description": "Application UI text."
+  },
+  "watchContent": "워치 콘텐츠",
+  "@watchContent": {
+    "description": "Application UI text."
+  },
+  "pointTheCamera": "카메라 맞추기",
+  "@pointTheCamera": {
+    "description": "Application UI text."
+  },
+  "keepAppleWatchInTheViewfinder": "Apple Watch를 뷰파인더 안에 맞추세요",
+  "@keepAppleWatchInTheViewfinder": {
+    "description": "Application UI text."
+  },
+  "placeTheAppleWatchScreenInTheCenterOf": "Apple Watch 화면을 프레임 중앙에 맞추면 페어링 애니메이션을 자동으로 인식합니다.",
+  "@placeTheAppleWatchScreenInTheCenterOf": {
+    "description": "Application UI text."
+  },
+  "pairAppleWatchManually": "Apple Watch 수동 페어링",
+  "@pairAppleWatchManually": {
+    "description": "Application UI text."
+  },
+  "pairManually": "수동 페어링",
+  "@pairManually": {
+    "description": "Application UI text."
+  },
+  "enterThe6DigitCode": "6자리 코드 입력",
+  "@enterThe6DigitCode": {
+    "description": "Application UI text."
+  },
+  "tapTheIIconOnYourAppleWatchTo": "Apple Watch에서 “i” 아이콘을 탭하면 페어링 코드를 볼 수 있습니다.",
+  "@tapTheIIconOnYourAppleWatchTo": {
+    "description": "Application UI text."
+  },
+  "syncComplete": "동기화 완료!",
+  "@syncComplete": {
+    "description": "Application UI text."
+  },
+  "syncingAppleWatch": "Apple Watch 동기화 중",
+  "@syncingAppleWatch": {
+    "description": "Application UI text."
+  },
+  "setUpAppleWatch": "Apple Watch 설정",
+  "@setUpAppleWatch": {
+    "description": "Application UI text."
+  },
+  "keepBluetoothOnAndYourWatchCloseToYour": "Bluetooth를 켜고 워치를 휴대폰 가까이에 두세요.",
+  "@keepBluetoothOnAndYourWatchCloseToYour": {
+    "description": "Application UI text."
+  },
+  "connectAppleWatchToYourAndroidPhoneToSync": "Apple Watch를 Android 휴대폰에 연결하여 알림, 통화 및 운동을 동기화하세요.",
+  "@connectAppleWatchToYourAndroidPhoneToSync": {
+    "description": "Application UI text."
+  },
+  "pairAppleWatch": "Apple Watch 페어링",
+  "@pairAppleWatch": {
+    "description": "Application UI text."
+  },
+  "continueAction": "계속",
+  "@continueAction": {
+    "description": "Application UI text."
+  },
+  "finishSetup": "설정 완료",
+  "@finishSetup": {
+    "description": "Application UI text."
+  },
+  "whichWristDoYouWearYourWatchOn": "어느 손목에 시계를 착용하시나요?",
+  "@whichWristDoYouWearYourWatchOn": {
+    "description": "Application UI text."
+  },
+  "appleWatchAdjustsWristRaiseAndGestureRecognitionFor": "선택한 손목에 맞춰 Apple Watch의 손목 올리기 및 제스처 인식을 조정합니다.",
+  "@appleWatchAdjustsWristRaiseAndGestureRecognitionFor": {
+    "description": "Application UI text."
+  },
+  "digitalCrownPosition": "Digital Crown 위치",
+  "@digitalCrownPosition": {
+    "description": "Application UI text."
+  },
+  "chooseWhichSideTheDigitalCrownIsOn": "Digital Crown이 있는 쪽을 선택하세요.",
+  "@chooseWhichSideTheDigitalCrownIsOn": {
+    "description": "Application UI text."
+  },
+  "digitalCrownOnRight": "Digital Crown 오른쪽",
+  "@digitalCrownOnRight": {
+    "description": "Application UI text."
+  },
+  "digitalCrownOnLeft": "Digital Crown 왼쪽",
+  "@digitalCrownOnLeft": {
+    "description": "Application UI text."
+  },
+  "alwaysOnDisplay": "상시표시형 디스플레이",
+  "@alwaysOnDisplay": {
+    "description": "Application UI text."
+  },
+  "theAlwaysOnRetinaDisplayShowsTheTimeAnd": "상시표시형 Retina 디스플레이는 손목을 올리지 않아도 시간과 중요한 정보를 표시합니다.",
+  "@theAlwaysOnRetinaDisplayShowsTheTimeAnd": {
+    "description": "Application UI text."
+  },
+  "enableAlwaysOnDisplay": "상시표시형 디스플레이 켜기",
+  "@enableAlwaysOnDisplay": {
+    "description": "Application UI text."
+  },
+  "createAPasscode": "암호 생성",
+  "@createAPasscode": {
+    "description": "Application UI text."
+  },
+  "aPasscodeProtectsYourDataApplePayCardsAnd": "암호는 데이터, Apple Pay 카드 및 의료 정보를 보호합니다.",
+  "@aPasscodeProtectsYourDataApplePayCardsAnd": {
+    "description": "Application UI text."
+  },
+  "addA4DigitPasscode": "4자리 암호 추가",
+  "@addA4DigitPasscode": {
+    "description": "Application UI text."
+  },
+  "titanium": "티타늄",
+  "@titanium": {
+    "description": "Application UI text."
+  },
+  "sunny": "맑음",
+  "@sunny": {
+    "description": "Application UI text."
+  },
+  "exclusiveAppleWatchUltraFacesWithACustomizableBezel": "맞춤형 베젤, 야간 모드 및 컴플리케이션 8개를 제공하는 Apple Watch Ultra 전용 페이스입니다.",
+  "@exclusiveAppleWatchUltraFacesWithACustomizableBezel": {
+    "description": "Application UI text."
+  },
+  "modular": "모듈",
+  "@modular": {
+    "description": "Application UI text."
+  },
+  "largeInformationBlocksAndGraphsForDataAtA": "큰 정보 블록과 그래프로 데이터를 한눈에 확인합니다.",
+  "@largeInformationBlocksAndGraphsForDataAtA": {
+    "description": "Application UI text."
+  },
+  "classic": "클래식",
+  "@classic": {
+    "description": "Application UI text."
+  },
+  "traditionalAnalogFacesWithRomanAndArabicNumerals": "로마 숫자와 아라비아 숫자를 사용하는 전통적인 아날로그 페이스입니다.",
+  "@traditionalAnalogFacesWithRomanAndArabicNumerals": {
+    "description": "Application UI text."
+  },
+  "infographAstronomy": "인포그래프 및 천체",
+  "@infographAstronomy": {
+    "description": "Application UI text."
+  },
+  "detailedAstronomicalAndWeatherDisplays": "천체 및 날씨 정보를 자세히 표시합니다.",
+  "@detailedAstronomicalAndWeatherDisplays": {
+    "description": "Application UI text."
+  },
+  "activityNike": "활동 및 Nike",
+  "@activityNike": {
+    "description": "Application UI text."
+  },
+  "activityRingsWorkoutsAndSportsMetrics": "활동 링, 운동 및 스포츠 측정값입니다.",
+  "@activityRingsWorkoutsAndSportsMetrics": {
+    "description": "Application UI text."
+  },
+  "wayfinderAlpine": "길잡이 알파인",
+  "@wayfinderAlpine": {
+    "description": "Application UI text."
+  },
+  "wayfinderNightMode": "길잡이 야간 모드",
+  "@wayfinderNightMode": {
+    "description": "Application UI text."
+  },
+  "modularDuo": "모듈 듀오",
+  "@modularDuo": {
+    "description": "Application UI text."
+  },
+  "modularMulticolor": "모듈 멀티컬러",
+  "@modularMulticolor": {
+    "description": "Application UI text."
+  },
+  "california": "캘리포니아",
+  "@california": {
+    "description": "Application UI text."
+  },
+  "californiaOcean": "캘리포니아 오션",
+  "@californiaOcean": {
+    "description": "Application UI text."
+  },
+  "chronographPro": "크로노그래프 프로",
+  "@chronographPro": {
+    "description": "Application UI text."
+  },
+  "infograph": "인포그래프",
+  "@infograph": {
+    "description": "Application UI text."
+  },
+  "solarDial": "태양 다이얼",
+  "@solarDial": {
+    "description": "Application UI text."
+  },
+  "activityAnalog": "활동 아날로그",
+  "@activityAnalog": {
+    "description": "Application UI text."
+  },
+  "modularUltra": "모듈 울트라",
+  "@modularUltra": {
+    "description": "Application UI text."
+  },
+  "activityDigital": "활동 디지털",
+  "@activityDigital": {
+    "description": "Application UI text."
+  },
+  "selectionConfirmedByTheWatch": "워치에서 선택을 확인했습니다.",
+  "@selectionConfirmedByTheWatch": {
+    "description": "Application UI text."
+  },
+  "collectionReceivedFromTheWatch": "워치에서 페이스 모음을 받았습니다.",
+  "@collectionReceivedFromTheWatch": {
+    "description": "Application UI text."
+  },
+  "incompleteCollectionReceivedRefreshAgain": "페이스 모음의 일부만 받았습니다. 다시 새로 고치세요.",
+  "@incompleteCollectionReceivedRefreshAgain": {
+    "description": "Application UI text."
+  },
+  "connectionChangedRefreshAgain": "연결이 변경되었습니다. 다시 새로 고치세요.",
+  "@connectionChangedRefreshAgain": {
+    "description": "Application UI text."
+  },
+  "waitingForTheWatchFaceCollection": "워치의 페이스 모음을 기다리는 중…",
+  "@waitingForTheWatchFaceCollection": {
+    "description": "Application UI text."
+  },
+  "requestNotSentCheckTheConnection": "요청을 보내지 못했습니다. 연결을 확인하세요.",
+  "@requestNotSentCheckTheConnection": {
+    "description": "Application UI text."
+  },
+  "newCollectionNotReceivedYetRefreshAgain": "새 페이스 모음을 아직 받지 못했습니다. 다시 새로 고치세요.",
+  "@newCollectionNotReceivedYetRefreshAgain": {
+    "description": "Application UI text."
+  },
+  "waitingForTheNewWatchFace": "새 시계 페이스를 기다리는 중…",
+  "@waitingForTheNewWatchFace": {
+    "description": "Application UI text."
+  },
+  "waitingForTheSelectedWatchFace": "선택한 시계 페이스를 기다리는 중…",
+  "@waitingForTheSelectedWatchFace": {
+    "description": "Application UI text."
+  },
+  "commandNotSentRefreshTheWatchFaceCollection": "명령을 보내지 못했습니다. 시계 페이스 모음을 새로 고치세요.",
+  "@commandNotSentRefreshTheWatchFaceCollection": {
+    "description": "Application UI text."
+  },
+  "resultNotConfirmedRefreshTheWatchFaceCollection": "결과가 확인되지 않았습니다. 시계 페이스 모음을 새로 고치세요.",
+  "@resultNotConfirmedRefreshTheWatchFaceCollection": {
+    "description": "Application UI text."
+  },
+  "lastSync": "마지막 동기화: {value0}.",
+  "@lastSync": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "myFaces": "나의 페이스",
+  "@myFaces": {
+    "description": "Heading when the watch face collection size is unknown."
+  },
+  "myFacesCount": "{count, plural, =0{나의 페이스 · 0} =1{나의 페이스 · 1} other{나의 페이스 · {count}}}",
+  "@myFacesCount": {
+    "description": "Heading with the size of the complete watch face collection.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionNotReceivedYet": "페이스 모음을 아직 받지 못함",
+  "@collectionNotReceivedYet": {
+    "description": "Application UI text."
+  },
+  "partialCollectionReceived": "페이스 모음의 일부만 받음",
+  "@partialCollectionReceived": {
+    "description": "Application UI text."
+  },
+  "collectionIsEmpty": "페이스 모음이 비어 있음",
+  "@collectionIsEmpty": {
+    "description": "Application UI text."
+  },
+  "face": "페이스 {value0}",
+  "@face": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      }
+    }
+  },
+  "selectedOnWatch": "워치에서 선택됨",
+  "@selectedOnWatch": {
+    "description": "Application UI text."
+  },
+  "createCopy": "복사본 생성",
+  "@createCopy": {
+    "description": "Application UI text."
+  },
+  "refreshFromWatch": "워치에서 새로 고침",
+  "@refreshFromWatch": {
+    "description": "Application UI text."
+  },
+  "enable": "활성화",
+  "@enable": {
+    "description": "Application UI text."
+  },
+  "disable": "비활성화",
+  "@disable": {
+    "description": "Application UI text."
+  },
+  "commandSentWaitingForTheWatchResult": "명령을 보냈습니다. 워치의 결과를 기다리는 중입니다.",
+  "@commandSentWaitingForTheWatchResult": {
+    "description": "Application UI text."
+  },
+  "commandNotSentCheckTheConnection": "명령을 보내지 못했습니다. 연결을 확인하세요.",
+  "@commandNotSentCheckTheConnection": {
+    "description": "Application UI text."
+  },
+  "watchSettings": "워치 설정",
+  "@watchSettings": {
+    "description": "Application UI text."
+  },
+  "valuesComeFromWatchMessagesNotReceivedMeansThe": "워치에서 보낸 값을 표시합니다. “수신되지 않음”은 워치가 아직 해당 설정을 보고하지 않았다는 뜻입니다.",
+  "@valuesComeFromWatchMessagesNotReceivedMeansThe": {
+    "description": "Application UI text."
+  },
+  "connectYourWatchToChangeSettings": "설정을 변경하려면 워치를 연결하세요.",
+  "@connectYourWatchToChangeSettings": {
+    "description": "Application UI text."
+  },
+  "stopNotConfirmed": "중지가 확인되지 않음",
+  "@stopNotConfirmed": {
+    "description": "Application UI text."
+  },
+  "couldNotOpenFlashlightPermission": "손전등 권한 화면을 열 수 없음",
+  "@couldNotOpenFlashlightPermission": {
+    "description": "Application UI text."
+  },
+  "phoneServiceUnavailable": "휴대폰 서비스를 사용할 수 없음",
+  "@phoneServiceUnavailable": {
+    "description": "Application UI text."
+  },
+  "alertStatusIsStale": "알림 상태가 오래됨",
+  "@alertStatusIsStale": {
+    "description": "Application UI text."
+  },
+  "flashlightIsOn": "손전등이 켜져 있음",
+  "@flashlightIsOn": {
+    "description": "Application UI text."
+  },
+  "soundAndFlashlightAreOn": "소리 및 손전등이 켜져 있음",
+  "@soundAndFlashlightAreOn": {
+    "description": "Application UI text."
+  },
+  "soundAlertStarted": "소리 알림 시작됨",
+  "@soundAlertStarted": {
+    "description": "Application UI text."
+  },
+  "lastAlertDidNotStart": "마지막 알림이 시작되지 않음",
+  "@lastAlertDidNotStart": {
+    "description": "Application UI text."
+  },
+  "requestHadNoSoundOrFlashlight": "요청에 소리 또는 손전등이 포함되지 않음",
+  "@requestHadNoSoundOrFlashlight": {
+    "description": "Application UI text."
+  },
+  "alertStopped": "알림 중지됨",
+  "@alertStopped": {
+    "description": "Application UI text."
+  },
+  "noAlertIsRunning": "실행 중인 알림 없음",
+  "@noAlertIsRunning": {
+    "description": "Application UI text."
+  },
+  "findPhoneFromWatch": "워치에서 휴대폰 찾기",
+  "@findPhoneFromWatch": {
+    "description": "Application UI text."
+  },
+  "localApkTest": "로컬 APK 테스트",
+  "@localApkTest": {
+    "description": "Application UI text."
+  },
+  "stopping": "중지 중…",
+  "@stopping": {
+    "description": "Application UI text."
+  },
+  "stopAlert": "알림 중지",
+  "@stopAlert": {
+    "description": "Application UI text."
+  },
+  "cameraPermissionIsRequiredToFindYourPhoneWith": "손전등으로 휴대폰을 찾으려면 카메라 권한이 필요합니다.",
+  "@cameraPermissionIsRequiredToFindYourPhoneWith": {
+    "description": "Application UI text."
+  },
+  "allowFlashlight": "손전등 허용",
+  "@allowFlashlight": {
+    "description": "Application UI text."
+  },
+  "incline42": "경사 42°",
+  "@incline42": {
+    "description": "Application UI text."
+  },
+  "north124": "북쪽 124°",
+  "@north124": {
+    "description": "Application UI text."
+  },
+  "message182M": "182 M",
+  "@message182M": {
+    "description": "Application UI text."
+  },
+  "activity2": "활동",
+  "@activity2": {
+    "description": "Application UI text."
+  },
+  "message620800Kcal": "620 / 800 KCAL",
+  "@message620800Kcal": {
+    "description": "Application UI text."
+  },
+  "today": "오늘",
+  "@today": {
+    "description": "Application UI text."
+  },
+  "message1930Meeting": "19:30 회의",
+  "@message1930Meeting": {
+    "description": "Application UI text."
+  },
+  "watchSync": "워치 동기화",
+  "@watchSync": {
+    "description": "Application UI text."
+  },
+  "message72Bpm5Minago": "72 BPM • 5분 전",
+  "@message72Bpm5Minago": {
+    "description": "Application UI text."
+  },
+  "theWatchHasNotRepliedYetRefreshAgain": "워치가 아직 응답하지 않았습니다. 다시 새로 고치세요.",
+  "@theWatchHasNotRepliedYetRefreshAgain": {
+    "description": "Application UI text."
+  },
+  "dataUpdated": "데이터를 업데이트했습니다",
+  "@dataUpdated": {
+    "description": "Application UI text."
+  },
+  "couldNotSendRequest": "요청을 보내지 못했습니다",
+  "@couldNotSendRequest": {
+    "description": "Application UI text."
+  },
+  "noWatchDataYet": "워치 데이터가 아직 없음",
+  "@noWatchDataYet": {
+    "description": "Application UI text."
+  },
+  "telemetryStatusTime": "{value0} · {value1}:{value2}:{value3}",
+  "@telemetryStatusTime": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      },
+      "value1": {
+        "type": "String"
+      },
+      "value2": {
+        "type": "String"
+      },
+      "value3": {
+        "type": "String"
+      }
+    }
+  },
+  "chargingUnknown": "충전 상태 알 수 없음",
+  "@chargingUnknown": {
+    "description": "Application UI text."
+  },
+  "charging": "충전 중",
+  "@charging": {
+    "description": "Application UI text."
+  },
+  "notCharging": "충전 중 아님",
+  "@notCharging": {
+    "description": "Application UI text."
+  },
+  "battery2": "배터리: —",
+  "@battery2": {
+    "description": "Application UI text."
+  },
+  "batteryReading": "{value0}: {value1}% · {value2}",
+  "@batteryReading": {
+    "description": "Application UI text.",
+    "placeholders": {
+      "value0": {
+        "type": "String"
+      },
+      "value1": {
+        "type": "String"
+      },
+      "value2": {
+        "type": "String"
+      }
+    }
+  },
+  "noConnectionToWatch": "워치에 연결되지 않음",
+  "@noConnectionToWatch": {
+    "description": "Application UI text."
+  },
+  "waitingForWatchReply": "워치 응답 대기 중…",
+  "@waitingForWatchReply": {
+    "description": "Application UI text."
+  },
+  "refreshData": "데이터 새로 고침",
+  "@refreshData": {
+    "description": "Application UI text."
+  },
+  "updated": "업데이트됨",
+  "@updated": {
+    "description": "Application UI label."
+  },
+  "dataIsStale": "데이터가 오래됨",
+  "@dataIsStale": {
+    "description": "Application UI label."
+  },
+  "battery3": "배터리",
+  "@battery3": {
+    "description": "Application UI label."
+  },
+  "lastBattery": "마지막 배터리 정보",
+  "@lastBattery": {
+    "description": "Application UI label."
+  },
+  "live": "실시간",
+  "@live": {
+    "description": "Application UI label."
+  },
+  "alwaysOn2": "항상 켬",
+  "@alwaysOn2": {
+    "description": "Application UI label."
+  },
+  "bluetooth": "Bluetooth",
+  "@bluetooth": {
+    "description": "Application UI label."
+  },
+  "wiFi": "Wi-Fi",
+  "@wiFi": {
+    "description": "Application UI label."
+  },
+  "digitalCrown": "Digital Crown",
+  "@digitalCrown": {
+    "description": "Application UI label."
+  },
+  "appleWatchUltra2ActionButton": "Apple Watch Ultra 2 동작 버튼",
+  "@appleWatchUltra2ActionButton": {
+    "description": "Application UI label."
+  },
+  "appleWatch": "Apple Watch",
+  "@appleWatch": {
+    "description": "Application UI label."
+  },
+  "watch": "시계",
+  "@watch": {
+    "description": "Application UI label."
+  },
+  "ultra": "Ultra",
+  "@ultra": {
+    "description": "Application UI label."
+  },
+  "wayfinder": "길잡이",
+  "@wayfinder": {
+    "description": "Application UI label."
+  },
+  "ultraModular": "울트라 모듈",
+  "@ultraModular": {
+    "description": "Application UI label."
+  },
+  "ultraModularTrail": "울트라 모듈 트레일",
+  "@ultraModularTrail": {
+    "description": "Application UI label."
+  },
+  "nikeBounceVolt": "Nike 바운스 볼트",
+  "@nikeBounceVolt": {
+    "description": "Application UI label."
+  },
+  "appleMusic": "Apple Music",
+  "@appleMusic": {
+    "description": "Application UI label."
+  },
+  "appleAccount": "Apple 계정",
+  "@appleAccount": {
+    "description": "Application UI label."
+  },
+  "watchConnection": "워치 연결",
+  "savedWatch": "저장된 워치",
+  "noPairedWatch": "페어링된 워치 없음",
+  "noPairedWatchHint": "워치를 가까이 두고 페어링 모드로 전환하여 시작하세요.",
+  "bridgeUnavailable": "Bridge를 사용할 수 없음",
+  "bridgeUnavailableHint": "워치를 연결하려면 호환되는 Bridge 백엔드를 설치하세요.",
+  "identityLoading": "저장된 페어링을 읽는 중…",
+  "identityReadError": "저장된 페어링을 사용할 수 없습니다. 새로 페어링하기 전에 진단 정보를 확인하세요.",
+  "connectWatch": "연결",
+  "disconnectWatch": "연결 해제",
+  "connectionConnecting": "연결 중…",
+  "connectionStopping": "연결 해제 중…",
+  "connectionPermissions": "Bluetooth 접근 허용",
+  "pairingRunning": "설정 진행 중",
+  "resumeWatchSetup": "설정 계속하기",
+  "finishWatchSetup": "설정 완료",
+  "watchStillSettingUp": "워치에 아직 설정 화면이 표시됨",
+  "resumeWatchSync": "동기화 재개",
+  "resumeWatchSyncHint": "워치에 아직 설정 화면이 표시될 때만 사용하세요. 시계 페이스가 보이면 대신 설정을 완료하세요.",
+  "confirmWatchFace": "시계 페이스가 표시됨",
+  "confirmWatchFaceHint": "워치에 시계 페이스가 표시된 후에만 확인하세요. 현재 설정 연결을 안전하게 중지합니다.",
+  "confirmWatchFaceQuestion": "워치에 시계 페이스가 표시되나요?",
+  "confirmWatchFaceDetail": "현재 활성화된 페어링의 연결 방식을 일반 연결 모드로 저장합니다.",
+  "connectionRequestAccepted": "요청을 수락했습니다. 워치를 기다리는 중…",
+  "connectionRequestRejected": "요청이 수락되지 않았습니다. 현재 연결과 진단 정보를 확인하세요.",
+  "connectionPermissionRequired": "Bluetooth 접근을 허용한 뒤 다시 시도하세요.",
+  "connectionBusy": "연결 또는 설정 작업이 이미 진행 중입니다.",
+  "syncCurrentWifi": "휴대폰 Wi-Fi 네트워크 보내기",
+  "wifiReceiptHint": "네트워크가 전송 대기열에 추가되었습니다. 워치의 설정 → Wi-Fi에서 확인하세요.",
+  "watchDiagnostics": "연결 진단",
+  "bridgeJournal": "Bridge 로그",
+  "copyBridgeJournal": "로그 복사",
+  "journalCopied": "로그를 복사했습니다",
+  "advancedConnectionTools": "고급 연결 도구",
+  "stockBondAudit": "시스템 Bluetooth 본딩 검사",
+  "stockBondImport": "시스템 Bluetooth 본딩 가져오기",
+  "stockIdentityAlignment": "시스템 Bluetooth 식별 정보 맞추기",
+  "stockReconnectProbe": "시스템 재연결 테스트",
+  "advancedToolHint": "이 도구를 사용하려면 연결을 중지하고 시스템 Bluetooth를 꺼야 합니다.",
+  "advancedToolQuestion": "이 연결 도구를 실행할까요?",
+  "advancedToolDetail": "백엔드에서 실행 전에 저장된 페어링과 Bluetooth 상태를 검증합니다.",
+  "pairingDiscovering": "워치를 찾는 중…",
+  "pairingConnecting": "발견한 워치에 연결 중…",
+  "pairingSecurity": "보안 페어링 설정 중…",
+  "pairingActivation": "Apple 서버에서 활성화 중…",
+  "pairingIds": "워치 서비스에 연결 중…",
+  "pairingRegistry": "워치 구성을 읽는 중…",
+  "pairingConfiguring": "워치 설정 적용 중…",
+  "pairingActivated": "워치 활성화됨",
+  "pairingCheckWatch": "초기 동기화를 보냈습니다. 워치를 확인하세요.",
+  "pairingVerifyReconnect": "워치 설정 상태를 확인했습니다. 연결 검증은 대기 중입니다.",
+  "pairingPaused": "설정 연결 중지됨",
+  "watchActivatedHint": "활성화가 완료되었습니다. 워치에 시계 페이스가 표시되면 아래에서 확인하세요.",
+  "confirmWatchFaceActiveDetail": "설정 세션을 안전하게 연결 해제하고 이 활성화된 페어링의 연결 방식을 일반 연결 모드로 저장합니다.",
+  "pairingSync": "워치 설정 동기화 중…",
+  "pairingVerified": "워치 설정 완료",
+  "pairingFailed": "설정 세션이 오류로 종료되었습니다. 로그를 확인하세요.",
+  "pairingIdle": "진행 중인 설정 세션이 없습니다.",
+  "pairingStarting": "워치 세션 시작 중…",
+  "pairingPinHint": "워치에 표시된 6자리 코드를 입력하세요.",
+  "pairingCheckingCode": "워치 코드 확인 중…",
+  "pairingCodeVerifiedBondPending": "워치 코드를 확인했습니다. 이 빌드에서는 Bluetooth 본딩을 아직 사용할 수 없습니다.",
+  "macosPairingBootstrapRestricted": "macOS에서 워치 페어링에 필요한 Bluetooth 채널을 제한합니다. 자세한 내용은 진단 정보를 확인하세요.",
+  "windowsPairingBootstrapRestricted": "Bluetooth 검색과 연결은 사용할 수 있습니다. 이 빌드에서는 Windows가 Apple Watch 페어링에 필요한 채널을 제공하지 않습니다.",
+  "windowsRawHciRequired": "워치의 전체 페어링 기능을 사용하려면 함께 제공되는 프로토콜 런타임과 서명된 UsbDk 1.0.21이 필요합니다. 1.0.22 버전은 Windows 충돌을 일으킬 수 있어 차단됩니다. USB Bluetooth 어댑터를 선택하세요. 세션 중에는 해당 어댑터를 워치 전용으로 사용합니다.",
+  "sendWatchPin": "코드 보내기",
+  "pairingCodeOnlyHint": "이 컴퓨터에서는 워치에 표시된 6자리 코드로 페어링하세요.",
+  "findNearbyWatch": "워치 찾기",
+  "bluetoothLinkConnected": "Bluetooth 링크 연결됨",
+  "watchPairingUnavailable": "이 플랫폼에서는 워치 페어링 서비스를 아직 사용할 수 없습니다.",
+  "activationOwnerInput": "Apple에서 소유자 확인을 요청했습니다",
+  "activationCredentialsHint": "자격 증명은 Apple 활성화 서비스로 전송되며 Companion에는 저장되지 않습니다.",
+  "submitActivation": "활성화 계속하기",
+  "retryActivation": "활성화 다시 시도",
+  "stopSetup": "설정 중지",
+  "pairedIdentity": "페어링 ID",
+  "hardwareIdentity": "하드웨어 식별자",
+  "systemBuild": "시스템 빌드",
+  "pendingWatchSetup": "이 저장된 페어링은 설정이 완료되지 않았습니다.",
+  "oneWatchBackend": "백엔드는 현재 페어링 하나를 저장합니다. 연결을 해제해도 저장된 페어링은 유지됩니다.",
+  "finishInitialSync": "초기 동기화 완료",
+  "chooseDiscoveredWatch": "주변에서 발견한 워치를 선택하세요. 지원되는 설정 광고 신호만 표시됩니다.",
+  "desktopCoreUnavailable": "연결 서비스를 시작할 수 없습니다. 자세한 내용은 진단 정보를 확인하세요.",
+  "manageWatchFaces": "시계 페이스 관리",
+  "nativeFaceChangesConfirmed": "워치에서 변경 사항을 확인했습니다.",
+  "nativeFaceWaiting": "워치의 변경 사항 확인 대기 중…",
+  "nativeFaceSaving": "변경 사항 저장 중…",
+  "nativeFaceRetry": "다시 시도",
+  "nativeFaceEditPending": "이 기기에 변경 사항을 저장했습니다. 워치를 기다리는 중…",
+  "nativeFaceSaveFailed": "이 기기에 변경 사항을 저장할 수 없습니다. 편집기를 닫지 말고 다시 시도하세요.",
+  "nativeFaceEditUncertain": "변경 사항을 이 기기에 저장했지만 워치에서 확인하지 못했습니다. 다시 시도하여 재전송하세요.",
+  "nativeFaceRejected": "변경 사항을 보내지 못했습니다. 페이스 모음을 새로 고친 뒤 다시 시도하세요.",
+  "nativeFaceUnknown": "결과가 확인되지 않았습니다. 다른 항목을 변경하기 전에 새로 고치세요.",
+  "nativeFaceImportHint": "사진과 리소스가 포함된 네이티브 .watchface 패키지를 선택하세요 (최대 16 MiB). 호환 여부는 연결된 워치에서 확인합니다.",
+  "nativeFaceCustomization": "사용자화",
+  "nativeFaceComplications": "컴플리케이션",
+  "nativeFaceSetActive": "현재 페이스로 설정",
+  "nativeFaceDelete": "시계 페이스 삭제",
+  "nativeFaceDeleteQuestion": "이 시계 페이스를 삭제할까요?",
+  "nativeFaceDeleteDetail": "나머지 페이스는 워치에 유지됩니다. 마지막 페이스는 삭제할 수 없습니다.",
+  "nativeFaceMoveEarlier": "앞으로 이동",
+  "nativeFaceMoveLater": "뒤로 이동",
+  "nativeFaceConfiguration": "네이티브 구성",
+  "nativeFaceConfigurationHint": "워치에서 받은 값입니다. 알 수 없는 필드는 그대로 유지하세요. 사용 가능한 값과 컴플리케이션 지원 여부는 페이스와 watchOS에 따라 다릅니다.",
+  "nativeFaceApply": "워치에 적용",
+  "nativeFaceEditValue": "값 편집",
+  "nativeFaceValueHint": "JSON 값을 입력하세요. 문자열은 따옴표로 감싸고 숫자와 불리언은 JSON 표기법을 사용해야 합니다.",
+  "nativeFaceInvalidValue": "올바르지 않은 구성 값",
+  "nativeFaceConfigurationUnavailable": "이 페이스의 구성을 불러오려면 Bridge를 업데이트하고 페이스 모음을 새로 고치세요.",
+  "nativeFaceFileSaved": "시계 페이스 파일을 저장했습니다",
+  "nativeFaceFileError": "시계 페이스 파일을 열거나 저장할 수 없습니다",
+  "nativeFaceResourceExportUnavailable": "이 페이스에는 사진이나 다른 리소스가 필요할 수 있습니다. 전체 네이티브 패키지를 읽을 수 있을 때까지 내보내기를 사용할 수 없습니다.",
+  "nativeFaceLocalLayoutHint": "이 갤러리에는 로컬 미리보기 레이아웃이 있습니다. 네이티브 시계 페이스는 나의 시계 → 시계 페이스 관리에서 관리하세요.",
+  "nativeFaceComplicationHint": "워치 카탈로그나 기존 페이스에서 호환되는 컴플리케이션을 선택하세요. 저장된 설정과 네이티브 인텐트는 유지됩니다.",
+  "nativeFaceComplicationCatalogPartial": "일부 설명 정보를 사용할 수 없습니다. 호환되는 선택 항목을 업데이트하려면 페이스 모음을 새로 고치세요.",
+  "nativeFaceComplicationVariantsMissing": "이 페이스의 일부 컴플리케이션에서 사용 가능한 변형 정보를 제공하지 않았습니다. 현재 설정은 계속 사용할 수 있습니다.",
+  "nativeFaceNoComplication": "없음",
+  "nativeFaceUnknownComplication": "알 수 없는 컴플리케이션",
+  "nativeFaceConflict": "이 페이스가 변경되었거나 워치가 다시 연결되었습니다. 편집 내용을 적용하기 전에 페이스를 다시 여세요.",
+  "exportLocalFaceLayout": "로컬 레이아웃 내보내기",
+  "localFaceLayoutSaved": "로컬 레이아웃을 저장했습니다",
+  "localFaceLayoutSavedHint": "이 .watchlayout 파일에는 Companion 미리보기 레이아웃이 포함되어 있습니다. 워치에 설치할 수 있는 네이티브 페이스가 아닙니다.",
+  "nativeFaceTimeStyle": "시간 스타일",
+  "nativeFaceDialStyle": "다이얼 스타일",
+  "nativeFaceWaypoint": "경유지",
+  "nativeFacePink": "핑크",
+  "nativeFaceNeonGreen": "네온 그린",
+  "nativeFaceOrange": "오렌지",
+  "nativeFacePinkSand": "핑크 / 샌드",
+  "nativeFaceNeonGreenCloud": "네온 그린 / 클라우드",
+  "nativeFaceOrangeLightSage": "오렌지 / 라이트 세이지",
+  "nativeFaceLightBlue": "라이트 블루",
+  "nativeFaceBrightBlue": "브라이트 블루",
+  "nativeFaceTerraCotta": "테라코타",
+  "nativeFaceTopLeft": "왼쪽 상단",
+  "nativeFaceTop": "상단",
+  "nativeFaceBottom": "하단",
+  "nativeFaceTopRight": "오른쪽 상단",
+  "nativeFaceBottomLeft": "왼쪽 하단",
+  "nativeFaceBottomRight": "오른쪽 하단",
+  "nativeFaceCenter": "중앙",
+  "nativeFaceNightMode": "야간 모드",
+  "nativeFaceColor": "색상",
+  "nativeFaceAutomatic": "자동",
+  "nativeFaceLeft": "왼쪽",
+  "nativeFaceRight": "오른쪽",
+  "nativeFacePalette": "팔레트 {number}",
+  "@nativeFacePalette": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "nativeFaceSeasonalPalette": "시즌 색상 {number}",
+  "@nativeFaceSeasonalPalette": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "nativeFaceAdvanced": "고급",
+  "nativeFaceEditHint": "원하는 설정을 선택한 뒤 워치에 적용하세요.",
+  "nativeFaceCopyHint": "워치에 있는 페이스로 새 페이스를 만들거나 공유받은 .watchface 파일을 가져오세요.",
+  "nativeFaceLocalLibrary": "로컬 디자인 라이브러리",
+  "nativeFaceUnsaved": "저장하지 않은 변경 사항을 버릴까요?",
+  "nativeFaceDiscard": "버리기",
+  "nativeFaceImport": "시계 페이스 가져오기",
+  "nativeFaceSharedPreview": "공유 미리보기",
+  "nativeFaceImportDone": "완료",
+  "nativeFaceSharedPreviewUnavailable": "이 파일에는 사용할 수 있는 공유 미리보기가 없습니다.",
+  "nativeFaceSharedPreviewHint": "파일과 함께 제공된 미리보기입니다. 호환 여부와 설치 성공 여부는 워치에서 확인합니다.",
+  "nativeFaceDraft": "저장하지 않은 변경 사항",
+  "nativeFaceDigital": "디지털",
+  "nativeFaceAnalog": "아날로그",
+  "nativeFaceAdd": "시계 페이스 추가",
+  "nativeFaceAvailable": "사용 가능한 페이스",
+  "nativeFaceAddToWatch": "워치에 추가",
+  "nativeFaceTemplateHint": "이 페이스를 워치에 추가하기 전에 색상과 컴플리케이션을 선택하세요.",
+  "nativeFaceDefaultPreview": "기본 미리보기",
+  "nativeFacePreviewUnavailable": "이 설정에서는 미리보기를 사용할 수 없습니다",
+  "nativeFaceStylePreview": "스타일 미리보기",
+  "nativeFaceStylePreviewHint": "예시 시간입니다. 실시간 데이터와 컴플리케이션은 워치에 표시됩니다.",
+  "nativeFaceSearch": "검색",
+  "nativePhotoChoose": "사진 선택",
+  "nativePhotoCropHint": "사진을 드래그하여 구도를 맞추세요. 손가락을 벌리거나 슬라이더를 사용해 확대할 수 있습니다.",
+  "nativeIntentSettings": "{slot} 설정",
+  "@nativeIntentSettings": {
+    "placeholders": {
+      "slot": {
+        "type": "String"
+      }
+    }
+  },
+  "nativeIntentParameterSeconds": "{name} (초)",
+  "@nativeIntentParameterSeconds": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nativeIntentDurationValue": "{name}: {seconds}초",
+  "@nativeIntentDurationValue": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "nativeIntentParameterInvalid": "지원 범위 내의 유한한 시간을 입력하세요.",
+  "nativeIntentLocalDraft": "이 설정은 초안에 저장됩니다. 워치로 보내려면 페이스를 적용하세요.",
+  "nativePhotoZoom": "확대",
+  "nativePhotoAspect": "프레임 모양",
+  "nativePhotoKeepCrop": "자르기 적용",
+  "nativePhotoSelected": "{count, plural, =1{사진 1장 선택됨} other{사진 {count}장 선택됨}}",
+  "@nativePhotoSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nativePhotoTimeAlignment": "시간 정렬",
+  "nativePhotoLeading": "시작 쪽",
+  "nativePhotoTrailing": "끝 쪽",
+  "nativePhotoTimeSize": "시간 크기",
+  "nativePhotoSmall": "작게",
+  "nativePhotoMedium": "중간",
+  "nativePhotoLarge": "크게",
+  "nativePhotoXLarge": "매우 크게",
+  "nativePhotoRemove": "사진 제거",
+  "nativeFaceShade": "색조",
+  "nativeFaceAddColors": "색상 추가",
+  "nativeFaceColorsDone": "완료",
+  "nativeFaceColorsSaveError": "색상을 저장할 수 없습니다. 다시 시도하세요.",
+  "nativeFaceColorsPending": "Apple Watch의 색상 설정을 기다리는 중입니다.",
+  "nativeFaceColorsAwaiting": "Apple Watch에 색상을 보내는 중입니다.",
+  "nativeFaceColorsUncertain": "Apple Watch에서 다른 색상을 보고했습니다.",
+  "nativeFaceColorsSent": "Apple Watch에 색상을 보냈습니다.",
+  "nativeFaceColorsDeliveryUncertain": "색상 전달 여부를 확인할 수 없습니다.",
+  "nativeFaceColorsRetry": "색상 동기화 다시 시도",
+  "nativeFaceMonogram": "모노그램",
+  "nativeMonogramDone": "완료",
+  "nativeMonogramInvalid": "이 텍스트는 모노그램으로 사용할 수 없습니다.",
+  "nativeMonogramUnavailable": "모노그램을 편집하려면 Apple Watch를 연결하세요.",
+  "nativeMonogramSaveError": "모노그램을 저장할 수 없습니다. 다시 시도하세요.",
+  "nativeMonogramAwaiting": "Apple Watch에 모노그램을 보내는 중입니다.",
+  "nativeMonogramDelivered": "모노그램을 전달했습니다. Apple Watch의 확인을 기다리는 중입니다.",
+  "nativeMonogramUncertain": "모노그램 동기화를 확인할 수 없습니다.",
+  "nativeMonogramConfirmed": "Apple Watch에서 모노그램을 확인했습니다.",
+  "nativeFaceSeeAllWatchFaces": "모든 시계 페이스 보기",
+  "nativeFaceAllWatchFaces": "모든 시계 페이스",
+  "nativeFaceLibraryEdit": "편집",
+  "nativeFaceLibraryDone": "완료",
+  "nativeFaceLibraryReorder": "{face} 순서 변경",
+  "@nativeFaceLibraryReorder": {
+    "placeholders": {
+      "face": {
+        "type": "String"
+      }
+    }
+  }
+}

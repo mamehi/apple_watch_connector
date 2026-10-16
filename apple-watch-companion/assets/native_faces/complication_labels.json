@@ -9,7 +9,7 @@
         "kind": "com.apple.weather.widget.uv"
       },
       "sourceKey": "UVI_COMPLICATION_NAME",
-      "labels": {"en": "UV Index"}
+      "labels": {"en": "UV Index","ko":"자외선 지수"}
     },
     {
       "identity": {
@@ -18,7 +18,7 @@
         "kind": "com.apple.weather.widget.wind"
       },
       "sourceKey": "WIND_COMPLICATION_NAME",
-      "labels": {"en": "Wind"}
+      "labels": {"en": "Wind","ko":"바람"}
     }
   ],
   "bundleLabels": [
@@ -29,7 +29,7 @@
       },
       "source": "watchOS 26.2 (23S303) LevelComplicationDataSource / LevelComplication.strings/sl.lproj; English translation",
       "sourceKey": "LEVEL_COMPLICATION_NAME",
-      "labels": {"en": "Level", "sl": "Libela"}
+      "labels": {"en": "Level", "sl": "Libela","ko":"수준"}
     }
   ]
 }
